@@ -1,0 +1,19 @@
+.mian-course-container div{
+    float: left;
+}
+.mian-course-container:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+.mian-course-container{
+	width: 1200px;
+	margin: 0 auto;
+}
+.goods-container{width: 1200px;margin: 0 auto;}
+.good-name{
+	display: block;
+}
+.goods-container > div:hover .good-name {
+    display: block;
+}
