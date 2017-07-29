@@ -17,3 +17,48 @@
 .goods-container > div:hover .good-name {
     display: block;
 }
+#right-course{width: 178px;height:400px;}
+#right-course>.userface{margin-left:54px;margin-top: 5px;}
+#right-course>p{text-align: center;}
+#right-course>button{margin-top: 10px;margin-left: 5px;border:1px solid red;outline: none;
+border-radius: 5px;background-color: white;color: red;padding:3px;}
+#right-course>button:hover{background-color:red ;color:white ;}
+#right-course>.user-code{width: 179px;height:250px;margin-top: 20px;}
+.tittle{text-align: center;font-size:30px;color:#FB2D39; background: url(../image/header/TB1adb0OFXXXXXzapXXXXXXXXXX-245-81.png)no-repeat center center;}
+.super-sheng{width:1200px;display:block;margin: 0 auto;}
+.good-name{ position: absolute,
+         height: 20px,
+         line-height: 20px,
+          display: none}
+.good-list{ width:width+px",
+          height:"384px",
+          border:"2px #ff4411 solid",
+          box-sizing: "border-box",
+          float:"left",
+          overflow: "hidden",
+          position: "relative",
+          padding:"5px";
+          }
+/*.goods-container>div:after{content: "";
+    display: block;
+    clear: both;}*/
+.good-name1{display: inline-block;
+	width: 700px;height: 80px; padding-top:30px;font-size: 26px;}
+.good-pic{
+	width: 400px;
+	margin-top: 60px;
+	margin-left: 40px;
+	float: left;
+}
+.good-name2{width: 700px;padding-top:85px;font-size: 26px;}
+.good-pr{padding-top: 80px;font-size: 28px;color: red;}
+.butt{width: 200px;margin-top: 30px;display: inline-block;}
+.less{width: 40px;height: 40px;outline: none;}
+.add{width: 40px;height: 40px;outline: none;}
+.good-num{width: 80px;height: 34px;outline: none;text-align: center;}
+.s{float: left;width: 700px;margin-left: 30px;}
+.good-buy{width: 100px;height: 30px;color: black;float: left;background-color: red;text-align: center;margin-right: 5px;line-height: 30px;color: white;border-radius: 5px;}
+.good-car{width: 100px;height: 30px;color: black;float: left;background-color: red;text-align: center;line-height: 30px;margin-left: 50px;color: white;border-radius: 5px;}
+.s1{padding-top: 327px;margin-left: 37px;}
+.good-buy:hover{color: red;background-color: white;font-size: 20px;}
+.good-car:hover{color: red;background-color: white;font-size: 20px;}

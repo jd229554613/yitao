@@ -37,7 +37,8 @@ var $=jQuery.noConflict();
 						});
 					}else{
 						alert(data.message);
-					}
+					} 
+					localStorage.setItem("token",data.data.token);
 				}
 			);
 		});
@@ -46,6 +47,7 @@ var $=jQuery.noConflict();
 		loginContainer.append(passwordInput);
 		loginContainer.append(loginButton);
 		$(document.body).append(loginContainer);
+		
 	}
 	window.Login=Login;
 })();
