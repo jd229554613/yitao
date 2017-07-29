@@ -4,7 +4,6 @@ var url = "http://h6.duchengjiu.top/shop/api_cart.php";
     $.get(url,parm,function(result){
     	console.log(result.data)
     	var content="";
-    	
     	result.data.forEach(function(obj){content +=`<div class="che" data-id=${obj.goods_id}> <input type="checkbox" /><img src="${obj.goods_thumb}"width="100px"height="100px"/>
     	<span >${obj.goods_name}</span>
     	<a><button class="jian">-</button><input type="text" value="${obj.goods_number}" /><button class="jia">+</button></a>
